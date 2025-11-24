@@ -19,39 +19,74 @@ This project maps amino-acid concentrations in Orgueil, Murchison, Ryugu, and Be
 ### Protocol Diagram
 ```mermaid
 flowchart TD
-  A["Topic:<br/>Human–Alien Communication"] --> B["Research question"]
-  B --> C{"Collect data"}
 
-  C --> D["Online posts<br/>Reports<br/>Shared experiences"]
-  C --> E["Public archives"]
+%% ----------------------------
+%% PRELIMINARY RESEARCH
+%% ----------------------------
+A[Main Challenge & Disparities<br/>Data Integration of Ocean Space]
 
-  C --> DS[("Dataset:<br/>Space Signal Collection")]
+A --> B1[Stakeholder Concerns]
+A --> B2[Experts + Managers]
 
-  DS --> COL1["Column 1:<br/>Intercepted radiofrequencies"]
-  DS --> COL2["Column 2:<br/>SETI audio tracks"]
+B1 --> C1[They aren't members of the "research" groups]
+B2 --> C2[How come others make it up?<br/>What's the most up-to-date baseline of the coast?]
 
-  D --> F{"Organize & code"}
-  E --> F
-  COL1 --> F
-  COL2 --> F
+C1 --> D[Identify stakeholders' research<br/>investigation needs]
+C2 --> D
 
-  F --> G["Grouped dataset"]
+D --> E[Which stakeholders contribute<br/>most research needs?]
 
-  G --> H{"Analysis"}
+E --> F[Use effectively promotional, clear, concise & cohesive language.<br/>Ideas to present the research based on depth, spatial resolution, hazards.<br/>NGOs and media help to understand the contents included/excluded,<br/>with a focus on risks & uncertainties that lie beyond baseline.]
 
-  H --> I["Recurring themes"]
-  H --> J["Collective attention"]
+%% ----------------------------
+%% DATA COLLECTION
+%% ----------------------------
+F --> G[Scoping key topics<br/>(data domains<br/>they work on)]
 
-  G --> K{"Transform"}
-  K --> L["Timelines"]
-  K --> M["Location-based views"]
+G --> H1((Google))
+G --> H2((NOAA))
+G --> H3((etc.))
 
-  I --> N{"Interpretation"}
-  J --> N
-  L --> N
-  M --> N
+H1 --> I1[Extract publicly available datasets]
+H2 --> I2[Cross-check with other datasets]
+H3 --> I3[Retrieve from services<br/>DBosm, Pysco, etc.]
 
-  N --> O["Insights:<br/>Shared narratives<br/>Signal waves<br/>Ideas about contact"]
+%% ----------------------------
+%% DATA ANALYSIS
+%% ----------------------------
+I1 --> J1[What information is relevant + why?]
+I2 --> J2[Understanding the dataset's spatial<br/>& temporal characteristics]
+I3 --> J3[Manually reviewing & categorizing<br/>the important dataset contents]
+
+J1 --> K((Scope & requirements<br/>logic))
+J2 --> K
+J3 --> K
+
+%% ----------------------------
+%% DATASET BUILDING
+%% ----------------------------
+K --> L[Data framing]
+
+L --> M1[Merge]
+L --> M2[Attribute enrichment]
+L --> M3[Validate]
+
+M1 --> N((Identify<br/>gaps/concerns<br/>& targets))
+M2 --> N
+M3 --> N
+
+N --> O1[Improve metadata<br/>standards]
+N --> O2[Service-level<br/>categorization]
+N --> O3[Theme-level dataset<br/>comparisons]
+
+%% ----------------------------
+%% DATA VISUALIZATION
+%% ----------------------------
+O1 --> P((Figure))
+O2 --> P
+O3 --> P
+
+P --> Q[Data Visualization]
 ```
 
 ### What topic does the project address?
