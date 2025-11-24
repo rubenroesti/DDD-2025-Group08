@@ -55,7 +55,7 @@ flowchart TD
 ```
 
 ### What topic does the project address?
-The project explores how humans interpret, imagine, and report communication with extra-terrestrial species. It looks at the stories, signals, and cultural references that shape our idea of what contact might look like, and how different communities describe their attempts to understand messages they believe come from beyond Earth.
+The project explores how amino acids are distributed in asteroid and meteorite samples to better understand the origins of organic matter in the solar system, and potentially the origins of life.
 
 ### What data have you considered?
 [Delete this for final delivery] *Specify the format and sources. Use also images/screenshots to describe your dataset.*
