@@ -14,7 +14,12 @@ https://www.jasondavies.com/wordtree/?source=obama.inauguration.2013.txt&prefix=
 
 
 ### Abstract (300 charachters)
-This project maps amino-acid concentrations in Orgueil, Murchison, Ryugu, and Bennu. Using images, chemical datasets, and added historical and scientific context, it visualizes and compares patterns that shed light on organic origins in the early solar system.
+The visualisation is based on nmol/g data extracted from sample analysis simplified 
+to arbitrary numbers to aid with the data visualisation. The data is converted from raw numerical data to a visual pattern that represents the density of carbolxylic and amino acids as well as amines on each of the 4 asteroids represented.
+
+Data from NASA’s OSIRIS-REx mission (Bennu) reveal hydrated minerals, organic molecules, and energy gradients — all the ingredients of pre-biotic organization 
+and the start point of life forms.
+
 
 ### Protocol Diagram
 ```mermaid
