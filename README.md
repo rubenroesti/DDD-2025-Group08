@@ -37,13 +37,13 @@ C2 --> D
 
 D --> E["Searching for which asteroids contain the most amino acids"]
 
-E --> F["Use effective promotional, clear, concise, cohesive language.\nPresent research based on depth, spatial resolution, and hazards.\nNGOs and media help clarify content focus on risks and uncertainties\nbeyond baseline."]
+E --> F["Google"]
 
 %% ============================
 %% DATA COLLECTION
 %% ============================
 
-F --> G["Scoping key topics\n(data domains they work on)"]
+F --> G["blah"]
 
 G --> H1((Google))
 G --> H2((NOAA))
