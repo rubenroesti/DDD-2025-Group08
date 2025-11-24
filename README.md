@@ -14,7 +14,7 @@ https://www.jasondavies.com/wordtree/?source=obama.inauguration.2013.txt&prefix=
 
 
 ### Abstract (300 charachters)
-This project investigates how people claim to communicate with alien species by gathering posts, reports, and shared experiences from online communities and public archives. The material was organized, coded, and grouped to uncover repeating themes and moments of collective attention. To make the findings clearer, the grouped data was transformed into timelines and location-based views that show when and where the conversations intensified. The highlights point to shared narratives appearing across different communities, synchronized waves of reported signals, and recurring ideas about how contact might take place.
+This project visualizes amino-acid concentrations in samples from Orgueil, Murchison, Ryugu, and Bennu. Using images, chemical datasets, and added historical and scientific context, it maps and compares patterns that illuminate early solar-system organics.
 
 ### Protocol Diagram
 ```mermaid
