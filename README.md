@@ -69,7 +69,7 @@ These sources offer written accounts, screenshots, and audio evidence that toget
 <img width="1512" height="945" alt="Screenshot 2025-11-19 at 16 48 00" src="https://github.com/user-attachments/assets/30cbb0d2-6287-4132-99a5-8e3baa2eb48e" />
 
 #### Link to the dataset
-[(https://www.nature.com/articles/s41550-024-02472-9)]
+https://www.nature.com/articles/s41550-024-02472-9
 
 ### What does the visualisation show?
 [Delete this for final delivery] *List three key insights emerging from your visualisation.*
