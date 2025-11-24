@@ -14,7 +14,7 @@ https://www.jasondavies.com/wordtree/?source=obama.inauguration.2013.txt&prefix=
 
 
 ### Abstract (300 charachters)
-This project visualizes amino-acid concentrations in samples from Orgueil, Murchison, Ryugu, and Bennu. Using images, chemical datasets, and added historical and scientific context, it maps and compares patterns that illuminate early solar-system organics.
+This project maps amino-acid concentrations in Orgueil, Murchison, Ryugu, and Bennu. Using images, chemical datasets, and added historical and scientific context, it visualizes and compares patterns that shed light on organic origins in the early solar system.
 
 ### Protocol Diagram
 ```mermaid
