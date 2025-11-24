@@ -74,6 +74,8 @@ These datasets allowed us to:
 * Color-code the points based on concentration level
 * Compare amino-acid abundance between the different asteroids/meteorites
 
+![Dataset](https://github.com/rubenroesti/DDD-2025-Group08/blob/main/Screenshot%20dataset.png?raw=true)
+
 #### Link to the dataset
 https://www.nature.com/articles/s41550-024-02472-9
 
