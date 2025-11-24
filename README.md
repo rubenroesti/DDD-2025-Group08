@@ -43,23 +43,23 @@ E --> F["Google"]
 %% DATA COLLECTION
 %% ============================
 
-F --> G["blah"]
+F --> G["sites"]
 
 G --> H1((Google))
-G --> H2((NOAA))
+G --> H2((NASA))
 G --> H3((Other))
 
-H1 --> I1["Extract publicly available datasets"]
-H2 --> I2["Cross-check with other datasets"]
-H3 --> I3["Retrieve from services\nDBosm, Pysco, etc."]
+H1 --> I1["Datasets about Bennu samples"]
+H2 --> I2["Dataset about asteroids containing the most amino acids"]
+H3 --> I3["Images from asteroids Orgueil, Murchison, Ryugu & Bennu"]
 
 %% ============================
 %% DATA ANALYSIS
 %% ============================
 
-I1 --> J1["Determine what information is relevant and why"]
-I2 --> J2["Understand dataset spatial\nand temporal characteristics"]
-I3 --> J3["Manually review and categorize\nimportant dataset contents"]
+I1 --> J1["what information is relevant to us?"]
+I2 --> J2["manually downloading images"]
+I3 --> J3["Manually review and categorize\important dataset contents"]
 
 J1 --> K((Scope and\nRequirements Logic))
 J2 --> K
