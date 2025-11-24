@@ -18,74 +18,81 @@ This project maps amino-acid concentrations in Orgueil, Murchison, Ryugu, and Be
 
 ### Protocol Diagram
 ```mermaid
-    graph TD
-    %% Phase 1: Project Initiation (Styled as the initial black box)
-    A[Project Initial Assessment]:::startNode
-    
-    A --> B1[Review Project Criteria]
-    A --> B2[Gather External Information]
-    
-    %% Phase 1: Data Identification and Gathering
-    B1 --> C1[Identify Necessary Data]
-    B2 --> C2[Analyze Available Data Points]
-    
-    %% Phase 1: Input Standardization (Hexagon in the sketch)
-    C1 --> D{Standardize Input Parameters}
-    C2 --> D
+    flowchart TD
 
-    %% Phase 2: Core Logic (Styled as the CORE black box)
-    D --> E[CORE: Execute Initial Transformation & Mapping]:::coreProcess
+%% ============================
+%% PRELIMINARY RESEARCH
+%% ============================
 
-    %% Phase 2: Validation
-    E --> F{Data Integrity Pass?}
-    F -- "No" --> G((Error Handler))
-    G --> A 
-    %% Error loop back to Project Start
-    F -- "Yes" --> H((Validation Complete))
+A["Main Challenge & Disparities\nData Integration of Ocean Space"]
 
-    %% Phase 3: Data Store Checks (Cylinder/Database shapes)
-    H --> I1[(System A Data Store)]
-    H --> I2[(System B Data Store)]
-    H --> I3[(System C Data Store)]
+A --> B1["Stakeholder Concerns"]
+A --> B2["Experts and Managers"]
 
-    %% Phase 3: Readiness Decisions
-    I1 --> J1{A is Ready?}
-    I2 --> J2{B is Ready?}
-    I3 --> J3{C is Ready?}
+B1 --> C1["They are not members of the research groups"]
+B2 --> C2["How come others make it up?\nWhat is the most up-to-date baseline\nof the coast?"]
 
-    %% Polling/Waiting for Readiness
-    J1 -- "No" --> H
-    J2 -- "No" --> H
-    J3 -- "No" --> H
-    
-    %% Convergence and Aggregation
-    J1 -- "Yes" --> K
-    J2 -- "Yes" --> K
-    J3 -- "Yes" --> K
-    K[Aggregate Results] --> L[Generate Interim Report]
+C1 --> D["Identify stakeholders' research investigation needs"]
+C2 --> D
 
-    %% Phase 4: Review Cycle (Parallel steps)
-    L --> M1[Client Approval Needed]
-    L --> M2[Internal Review]
-    L --> M3[External Dependency]
+D --> E["Which stakeholders contribute\nmost research needs?"]
 
-    M1 --> N{Final Check Passed?}
-    M2 --> N
-    M3 --> N
+E --> F["Use effective promotional, clear, concise, cohesive language.\nPresent research based on depth, spatial resolution, and hazards.\nNGOs and media help clarify content focus on risks and uncertainties\nbeyond baseline."]
 
-    %% Rework Loop
-    N -- "No" --> O((Rework Required))
-    O --> L 
-    
-    %% Phase 5: Finalization
-    N -- "Yes" --> P[Prepare Final Artifact]
-    P --> Q((Deploy to Target System))
-    Q --> R[[End Process]]:::endNode
+%% ============================
+%% DATA COLLECTION
+%% ============================
 
-    %% Custom Styling to match the sketch's visual elements
-    classDef startNode fill:#000, color:#fff, stroke:#000, stroke-width:4px;
-    classDef coreProcess fill:#000, color:#fff, stroke:#000, stroke-width:4px;
-    classDef endNode fill:#eee, stroke:#000, stroke-width:2px;
+F --> G["Scoping key topics\n(data domains they work on)"]
+
+G --> H1((Google))
+G --> H2((NOAA))
+G --> H3((Other))
+
+H1 --> I1["Extract publicly available datasets"]
+H2 --> I2["Cross-check with other datasets"]
+H3 --> I3["Retrieve from services\nDBosm, Pysco, etc."]
+
+%% ============================
+%% DATA ANALYSIS
+%% ============================
+
+I1 --> J1["Determine what information is relevant and why"]
+I2 --> J2["Understand dataset spatial\nand temporal characteristics"]
+I3 --> J3["Manually review and categorize\nimportant dataset contents"]
+
+J1 --> K((Scope and\nRequirements Logic))
+J2 --> K
+J3 --> K
+
+%% ============================
+%% DATASET BUILDING
+%% ============================
+
+K --> L["Data Framing"]
+
+L --> M1["Merge"]
+L --> M2["Attribute Enrichment"]
+L --> M3["Validate"]
+
+M1 --> N((Identify gaps,\nconcerns,\nand targets))
+M2 --> N
+M3 --> N
+
+N --> O1["Improve metadata standards"]
+N --> O2["Service-level categorization"]
+N --> O3["Theme-level dataset comparisons"]
+
+%% ============================
+%% DATA VISUALIZATION
+%% ============================
+
+O1 --> P((Figure))
+O2 --> P
+O3 --> P
+
+P --> Q["Data Visualization"]
+
 ```
 
 ### What topic does the project address?
