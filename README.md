@@ -73,21 +73,21 @@ https://www.nature.com/articles/s41550-024-02472-9
 
 ### What does the visualisation show?
 1. Amino-acid concentration maps
-- Each asteroid image displays a grey silhouette of the sample with colored dots overlaid:
-Yellow, green, and red points indicate relative concentrations of different amino acids.
-The color bar at the bottom (green → yellow → red) represents low to high amino-acid abundance.
-This lets you visually compare how amino acids are distributed across each sample.
+Each asteroid image displays a grey silhouette of the sample with colored dots overlaid:
+- Yellow, green, and red points indicate relative concentrations of different amino acids.
+- The color bar at the bottom (green → yellow → red) represents low to high amino-acid abundance.
+- This lets you visually compare how amino acids are distributed across each sample.
 
 3. Historical & scientific context
-- Below each asteroid, there is scrollable text describing:
-Name & type (e.g., CI1 chondrite, carbonaceous asteroid)
-Sample mass
-Collection date/location
-Historical impact – why each meteorite/asteroid sample is scientifically important
+Below each asteroid, there is scrollable text describing:
+- Name & type (e.g., CI1 chondrite, carbonaceous asteroid)
+- Sample mass
+- Collection date/location
+- Historical impact – why each meteorite/asteroid sample is scientifically important
 (e.g., Orgueil’s role in early organic-matter studies, Ryugu/Bennu being part of spacecraft sample-return missions).
 
 5. Purpose of the visualization
-- The graphic is meant to show:
-How organics vary across different primitive solar system bodies.
-How the distribution of amino acids differs between older meteorite falls (Orgueil, Murchison) and recent sample-return missions (Ryugu, Bennu).
-How these findings connect to the study of the origins of life and prebiotic chemistry.
+The graphic is meant to show:
+- How organics vary across different primitive solar system bodies.
+- How the distribution of amino acids differs between older meteorite falls (Orgueil, Murchison) and recent sample-return missions (Ryugu, Bennu).
+- How these findings connect to the study of the origins of life and prebiotic chemistry.
