@@ -3,7 +3,7 @@ Ruben Bähler; Riccardo Assirelli; Lynn Germiquet
 # Silent Messengers: Amino acid concentration on samples from asteroids Orgueil, Murchison, Ryugu and Bennu
 
 ### Visualisation
-![ScreenRecording](Screenrecording.MP4)
+![Data viz](Screenshot-Dataviz.png)
 
 
 
