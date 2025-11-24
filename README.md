@@ -24,18 +24,18 @@ This project maps amino-acid concentrations in Orgueil, Murchison, Ryugu, and Be
 %% PRELIMINARY RESEARCH
 %% ============================
 
-A["Main Challenge & Disparities\nData Integration of Ocean Space"]
+A["Silent Messengers: Aminoacid concentration on samples from asteroids Orgueil, Murchison, Ryugu and Bennu"]
 
-A --> B1["Stakeholder Concerns"]
-A --> B2["Experts and Managers"]
+A --> B1["asteroids"]
+A --> B2["organic vs"]
 
-B1 --> C1["They are not members of the research groups"]
-B2 --> C2["How come others make it up?\nWhat is the most up-to-date baseline\nof the coast?"]
+B1 --> C1["amino acids are related to the origin of life"]
+B2 --> C2["which asteroids contain the most amount of amino acids?"]
 
-C1 --> D["Identify stakeholders' research investigation needs"]
+C1 --> D["How effectively can a grain chart, centered on asteroid images, visually compare the amount of amino acids in Orgueil, Murchison, Ryugu & Bennu to help understand their prebiotic chemical potential, with a focus on amino acids, for life beyond earth?"]
 C2 --> D
 
-D --> E["Which stakeholders contribute\nmost research needs?"]
+D --> E["Searching for which asteroids contain the most amino acids"]
 
 E --> F["Use effective promotional, clear, concise, cohesive language.\nPresent research based on depth, spatial resolution, and hazards.\nNGOs and media help clarify content focus on risks and uncertainties\nbeyond baseline."]
 
