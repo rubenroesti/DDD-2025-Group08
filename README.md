@@ -18,75 +18,73 @@ This project maps amino-acid concentrations in Orgueil, Murchison, Ryugu, and Be
 
 ### Protocol Diagram
 ```mermaid
-flowchart TD
+graph TD
+    % Phase 1: Project Initiation (Styled as the initial black box)
+    A[Project Initial Assessment]:::startNode
+    
+    A --> B1[Review Project Criteria]
+    A --> B2[Gather External Information]
+    
+    % Phase 1: Data Identification and Gathering
+    B1 --> C1[Identify Necessary Data]
+    B2 --> C2[Analyze Available Data Points]
+    
+    % Phase 1: Input Standardization (Hexagon in the sketch)
+    C1 --> D{Standardize Input Parameters}
+    C2 --> D
 
-%% ----------------------------
-%% PRELIMINARY RESEARCH
-%% ----------------------------
-A[Main Challenge & Disparities<br/>Data Integration of Ocean Space]
+    % Phase 2: Core Logic (Styled as the CORE black box)
+    D --> E[CORE: Execute Initial Transformation & Mapping]:::coreProcess
 
-A --> B1[Stakeholder Concerns]
-A --> B2[Experts + Managers]
+    % Phase 2: Validation
+    E --> F{Data Integrity Pass?}
+    F -- "No" --> G((Error Handler))
+    G --> A % Error loop back to Project Start
+    F -- "Yes" --> H((Validation Complete))
 
-B1 --> C1[They aren't members of the "research" groups]
-B2 --> C2[How come others make it up?<br/>What's the most up-to-date baseline of the coast?]
+    % Phase 3: Data Store Checks (Cylinder/Database shapes)
+    H --> I1[(System A Data Store)]
+    H --> I2[(System B Data Store)]
+    H --> I3[(System C Data Store)]
 
-C1 --> D[Identify stakeholders' research<br/>investigation needs]
-C2 --> D
+    % Phase 3: Readiness Decisions
+    I1 --> J1{A is Ready?}
+    I2 --> J2{B is Ready?}
+    I3 --> J3{C is Ready?}
 
-D --> E[Which stakeholders contribute<br/>most research needs?]
+    % Polling/Waiting for Readiness
+    J1 -- "No" --> H
+    J2 -- "No" --> H
+    J3 -- "No" --> H
+    
+    % Convergence and Aggregation
+    J1 -- "Yes" --> K
+    J2 -- "Yes" --> K
+    J3 -- "Yes" --> K
+    K[Aggregate Results] --> L[Generate Interim Report]
 
-E --> F[Use effectively promotional, clear, concise & cohesive language.<br/>Ideas to present the research based on depth, spatial resolution, hazards.<br/>NGOs and media help to understand the contents included/excluded,<br/>with a focus on risks & uncertainties that lie beyond baseline.]
+    % Phase 4: Review Cycle (Parallel steps)
+    L --> M1[Client Approval Needed]
+    L --> M2[Internal Review]
+    L --> M3[External Dependency]
 
-%% ----------------------------
-%% DATA COLLECTION
-%% ----------------------------
-F --> G[Scoping key topics<br/>(data domains<br/>they work on)]
+    M1 --> N{Final Check Passed?}
+    M2 --> N
+    M3 --> N
 
-G --> H1((Google))
-G --> H2((NOAA))
-G --> H3((etc.))
+    % Rework Loop
+    N -- "No" --> O((Rework Required))
+    O --> L 
+    
+    % Phase 5: Finalization
+    N -- "Yes" --> P[Prepare Final Artifact]
+    P --> Q((Deploy to Target System))
+    Q --> R[[End Process]]:::endNode
 
-H1 --> I1[Extract publicly available datasets]
-H2 --> I2[Cross-check with other datasets]
-H3 --> I3[Retrieve from services<br/>DBosm, Pysco, etc.]
-
-%% ----------------------------
-%% DATA ANALYSIS
-%% ----------------------------
-I1 --> J1[What information is relevant + why?]
-I2 --> J2[Understanding the dataset's spatial<br/>& temporal characteristics]
-I3 --> J3[Manually reviewing & categorizing<br/>the important dataset contents]
-
-J1 --> K((Scope & requirements<br/>logic))
-J2 --> K
-J3 --> K
-
-%% ----------------------------
-%% DATASET BUILDING
-%% ----------------------------
-K --> L[Data framing]
-
-L --> M1[Merge]
-L --> M2[Attribute enrichment]
-L --> M3[Validate]
-
-M1 --> N((Identify<br/>gaps/concerns<br/>& targets))
-M2 --> N
-M3 --> N
-
-N --> O1[Improve metadata<br/>standards]
-N --> O2[Service-level<br/>categorization]
-N --> O3[Theme-level dataset<br/>comparisons]
-
-%% ----------------------------
-%% DATA VISUALIZATION
-%% ----------------------------
-O1 --> P((Figure))
-O2 --> P
-O3 --> P
-
-P --> Q[Data Visualization]
+    % Custom Styling to match the sketch's visual elements
+    classDef startNode fill:#000, color:#fff, stroke:#000, stroke-width:4px;
+    classDef coreProcess fill:#000, color:#fff, stroke:#000, stroke-width:4px;
+    classDef endNode fill:#eee, stroke:#000, stroke-width:2px;
 ```
 
 ### What topic does the project address?
