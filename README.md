@@ -5,7 +5,7 @@ Ruben Bähler; Riccardo Assirelli; Lynn Germiquet
 ### Visualisation
 [Delete this for final delivery] *Upload here your visualisation. You can use a screenshots, a video/gif (if you need to show the interaction)*
 
-![ScreenRecording2025-11-19at16 59 27-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/417f8a88-694f-484c-9e0b-bd96dab792a2)
+![ScreenRecording](Screen Recording 2025-11-24 at 15.02.14.mp4)
 
 
 
