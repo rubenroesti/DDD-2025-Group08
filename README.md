@@ -58,15 +58,21 @@ flowchart TD
 The project explores how amino acids are distributed in asteroid and meteorite samples to better understand the origins of organic matter in the solar system, and potentially the origins of life.
 
 ### What data have you considered?
-[Delete this for final delivery] *Specify the format and sources. Use also images/screenshots to describe your dataset.*
+We used two main types of data:
+1. Images of asteroid and meteorite samples
+* High-resolution images of the four samples:
+* Orgueil
+* Murchison
+* Ryugu
+* Bennu
+These images served as the base layer for visualizing where amino acids were detected across each sample.
 
-The project considers a mix of publicly accessible material related to claimed human–alien communication. The dataset includes:
-* Online posts and reports collected from open communities, shared in text or image format.
-* Public archives containing documented sightings, signal logs, and descriptions of unusual transmissions, usually provided as PDF files or structured text.
-* Space-related audio material, such as intercepted radiofrequencies and sound tracks from SETI, stored as WAV or MP3 files.
-These sources offer written accounts, screenshots, and audio evidence that together outline how people interpret or describe possible extra-terrestrial messages.
-
-<img width="1512" height="945" alt="Screenshot 2025-11-19 at 16 48 00" src="https://github.com/user-attachments/assets/30cbb0d2-6287-4132-99a5-8e3baa2eb48e" />
+2. Datasets of amino-acid concentrations
+We used quantitative datasets showing the concentration and spatial distribution of various amino acids within each sample.
+These datasets allowed us to:
+* Plot points directly on the sample images
+* Color-code the points based on concentration level
+* Compare amino-acid abundance between the different asteroids/meteorites
 
 #### Link to the dataset
 https://www.nature.com/articles/s41550-024-02472-9
