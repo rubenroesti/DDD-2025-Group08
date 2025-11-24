@@ -9,10 +9,6 @@ Ruben Bähler; Riccardo Assirelli; Lynn Germiquet
 
 
 
-#### Link to the prototype or website (if available)
-https://www.jasondavies.com/wordtree/?source=obama.inauguration.2013.txt&prefix=devastating 
-
-
 ### Abstract (300 charachters)
 The visualisation is based on nmol/g data extracted from sample analysis simplified 
 to arbitrary numbers to aid with the data visualisation. The data is converted from raw numerical data to a visual pattern that represents the density of carbolxylic and amino acids as well as amines on each of the 4 asteroids represented.
