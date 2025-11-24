@@ -5,6 +5,7 @@ Ruben Bähler; Riccardo Assirelli; Lynn Germiquet
 ### Visualisation
 ![Data viz](Screenshot-Dataviz.png)
 
+Link to visualisation: https://vimeo.com/1140051617?fl=pl&fe=sh
 
 
 ### Abstract
