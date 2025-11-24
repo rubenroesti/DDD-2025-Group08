@@ -1,4 +1,4 @@
-### DDD-2025-GroupX
+### DDD-2025-Group 08
 Ruben Bähler; Riccardo Assirelli; Lynn Germiquet
 # Silent Messengers: Aminoacid concentration on samples from asteroids Orgueil, Murchison, Ryugu and Bennu
 
@@ -72,11 +72,22 @@ These sources offer written accounts, screenshots, and audio evidence that toget
 https://www.nature.com/articles/s41550-024-02472-9
 
 ### What does the visualisation show?
-[Delete this for final delivery] *List three key insights emerging from your visualisation.*
+1. Amino-acid concentration maps
+- Each asteroid image displays a grey silhouette of the sample with colored dots overlaid:
+Yellow, green, and red points indicate relative concentrations of different amino acids.
+The color bar at the bottom (green → yellow → red) represents low to high amino-acid abundance.
+This lets you visually compare how amino acids are distributed across each sample.
 
--	Recurring narrative patterns:
-Different communities describe similar types of signals and “messages,” suggesting shared storytelling elements across platforms.
--	Moments of collective attention:
-Peaks of reported signals and posts tend to appear in synchronized waves, often clustered around the same dates or events.
--	Geographical convergence:
-Several reports originate from recurring locations or regions, pointing to zones where conversations about possible contact intensify more frequently.
+3. Historical & scientific context
+- Below each asteroid, there is scrollable text describing:
+Name & type (e.g., CI1 chondrite, carbonaceous asteroid)
+Sample mass
+Collection date/location
+Historical impact – why each meteorite/asteroid sample is scientifically important
+(e.g., Orgueil’s role in early organic-matter studies, Ryugu/Bennu being part of spacecraft sample-return missions).
+
+5. Purpose of the visualization
+- The graphic is meant to show:
+How organics vary across different primitive solar system bodies.
+How the distribution of amino acids differs between older meteorite falls (Orgueil, Murchison) and recent sample-return missions (Ryugu, Bennu).
+How these findings connect to the study of the origins of life and prebiotic chemistry.
