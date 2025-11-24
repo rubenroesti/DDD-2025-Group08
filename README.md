@@ -1,6 +1,6 @@
 ### DDD-2025-Group 08
 Ruben Bähler; Riccardo Assirelli; Lynn Germiquet
-# Silent Messengers: Aminoacid concentration on samples from asteroids Orgueil, Murchison, Ryugu and Bennu
+# Silent Messengers: Amino acid concentration on samples from asteroids Orgueil, Murchison, Ryugu and Bennu
 
 ### Visualisation
 [Delete this for final delivery] *Upload here your visualisation. You can use a screenshots, a video/gif (if you need to show the interaction)*
