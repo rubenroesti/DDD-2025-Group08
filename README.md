@@ -18,73 +18,73 @@ This project maps amino-acid concentrations in Orgueil, Murchison, Ryugu, and Be
 
 ### Protocol Diagram
 ```mermaid
-graph TD
-    % Phase 1: Project Initiation (Styled as the initial black box)
-    A[Project Initial Assessment]:::startNode
+    graph TD
+        % Phase 1: Project Initiation (Styled as the initial black box)
+        A[Project Initial Assessment]:::startNode
+        
+        A --> B1[Review Project Criteria]
+        A --> B2[Gather External Information]
+        
+        % Phase 1: Data Identification and Gathering
+        B1 --> C1[Identify Necessary Data]
+        B2 --> C2[Analyze Available Data Points]
+        
+        % Phase 1: Input Standardization (Hexagon in the sketch)
+        C1 --> D{Standardize Input Parameters}
+        C2 --> D
     
-    A --> B1[Review Project Criteria]
-    A --> B2[Gather External Information]
+        % Phase 2: Core Logic (Styled as the CORE black box)
+        D --> E[CORE: Execute Initial Transformation & Mapping]:::coreProcess
     
-    % Phase 1: Data Identification and Gathering
-    B1 --> C1[Identify Necessary Data]
-    B2 --> C2[Analyze Available Data Points]
+        % Phase 2: Validation
+        E --> F{Data Integrity Pass?}
+        F -- "No" --> G((Error Handler))
+        G --> A % Error loop back to Project Start
+        F -- "Yes" --> H((Validation Complete))
     
-    % Phase 1: Input Standardization (Hexagon in the sketch)
-    C1 --> D{Standardize Input Parameters}
-    C2 --> D
-
-    % Phase 2: Core Logic (Styled as the CORE black box)
-    D --> E[CORE: Execute Initial Transformation & Mapping]:::coreProcess
-
-    % Phase 2: Validation
-    E --> F{Data Integrity Pass?}
-    F -- "No" --> G((Error Handler))
-    G --> A % Error loop back to Project Start
-    F -- "Yes" --> H((Validation Complete))
-
-    % Phase 3: Data Store Checks (Cylinder/Database shapes)
-    H --> I1[(System A Data Store)]
-    H --> I2[(System B Data Store)]
-    H --> I3[(System C Data Store)]
-
-    % Phase 3: Readiness Decisions
-    I1 --> J1{A is Ready?}
-    I2 --> J2{B is Ready?}
-    I3 --> J3{C is Ready?}
-
-    % Polling/Waiting for Readiness
-    J1 -- "No" --> H
-    J2 -- "No" --> H
-    J3 -- "No" --> H
+        % Phase 3: Data Store Checks (Cylinder/Database shapes)
+        H --> I1[(System A Data Store)]
+        H --> I2[(System B Data Store)]
+        H --> I3[(System C Data Store)]
     
-    % Convergence and Aggregation
-    J1 -- "Yes" --> K
-    J2 -- "Yes" --> K
-    J3 -- "Yes" --> K
-    K[Aggregate Results] --> L[Generate Interim Report]
-
-    % Phase 4: Review Cycle (Parallel steps)
-    L --> M1[Client Approval Needed]
-    L --> M2[Internal Review]
-    L --> M3[External Dependency]
-
-    M1 --> N{Final Check Passed?}
-    M2 --> N
-    M3 --> N
-
-    % Rework Loop
-    N -- "No" --> O((Rework Required))
-    O --> L 
+        % Phase 3: Readiness Decisions
+        I1 --> J1{A is Ready?}
+        I2 --> J2{B is Ready?}
+        I3 --> J3{C is Ready?}
     
-    % Phase 5: Finalization
-    N -- "Yes" --> P[Prepare Final Artifact]
-    P --> Q((Deploy to Target System))
-    Q --> R[[End Process]]:::endNode
-
-    % Custom Styling to match the sketch's visual elements
-    classDef startNode fill:#000, color:#fff, stroke:#000, stroke-width:4px;
-    classDef coreProcess fill:#000, color:#fff, stroke:#000, stroke-width:4px;
-    classDef endNode fill:#eee, stroke:#000, stroke-width:2px;
+        % Polling/Waiting for Readiness
+        J1 -- "No" --> H
+        J2 -- "No" --> H
+        J3 -- "No" --> H
+        
+        % Convergence and Aggregation
+        J1 -- "Yes" --> K
+        J2 -- "Yes" --> K
+        J3 -- "Yes" --> K
+        K[Aggregate Results] --> L[Generate Interim Report]
+    
+        % Phase 4: Review Cycle (Parallel steps)
+        L --> M1[Client Approval Needed]
+        L --> M2[Internal Review]
+        L --> M3[External Dependency]
+    
+        M1 --> N{Final Check Passed?}
+        M2 --> N
+        M3 --> N
+    
+        % Rework Loop
+        N -- "No" --> O((Rework Required))
+        O --> L 
+        
+        % Phase 5: Finalization
+        N -- "Yes" --> P[Prepare Final Artifact]
+        P --> Q((Deploy to Target System))
+        Q --> R[[End Process]]:::endNode
+    
+        % Custom Styling to match the sketch's visual elements
+        classDef startNode fill:#000, color:#fff, stroke:#000, stroke-width:4px;
+        classDef coreProcess fill:#000, color:#fff, stroke:#000, stroke-width:4px;
+        classDef endNode fill:#eee, stroke:#000, stroke-width:2px;
 ```
 
 ### What topic does the project address?
