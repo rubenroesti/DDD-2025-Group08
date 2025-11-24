@@ -5,7 +5,9 @@ Ruben Bähler; Riccardo Assirelli; Lynn Germiquet
 ### Visualisation
 ![Data viz](Screenshot-Dataviz.png)
 
-Link to visualisation: https://vimeo.com/1140051617?fl=pl&fe=sh
+Link to Screenrecording of the visualisation: https://vimeo.com/1140051617?fl=pl&fe=sh
+
+Link to Figma preview: https://www.figma.com/proto/xQ6lEpydDDorEiEI31deAk/Final-Data-Viz?page-id=63%3A92&node-id=63-93&viewport=111%2C134%2C0.43&t=aaiDS1U52IeTAstU-1&scaling=contain&content-scaling=fixed&starting-point-node-id=63%3A93
 
 
 ### Abstract
