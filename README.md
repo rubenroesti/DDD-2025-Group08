@@ -26,11 +26,11 @@ This project maps amino-acid concentrations in Orgueil, Murchison, Ryugu, and Be
 
 A["Silent Messengers: Aminoacid concentration on samples from asteroids Orgueil, Murchison, Ryugu and Bennu"]
 
-A --> B1["asteroids"]
-A --> B2["organic vs"]
+A --> B1["Asteroids"]
+A --> B2["Organic vs unorganic"]
 
-B1 --> C1["amino acids are related to the origin of life"]
-B2 --> C2["which asteroids contain the most amount of amino acids?"]
+B1 --> C1["Amino acids are related to the origin of life"]
+B2 --> C2["Which asteroids contain the most amount of amino acids?"]
 
 C1 --> D["How effectively can a grain chart, centered on asteroid images, visually compare the amount of amino acids in Orgueil, Murchison, Ryugu & Bennu to help understand their prebiotic chemical potential, with a focus on amino acids, for life beyond earth?"]
 C2 --> D
@@ -57,11 +57,11 @@ H3 --> I3["Images from asteroids Orgueil, Murchison, Ryugu & Bennu"]
 %% DATA ANALYSIS
 %% ============================
 
-I1 --> J1["what information is relevant to us?"]
-I2 --> J2["manually downloading images"]
+I1 --> J1["What information is relevant to us?"]
+I2 --> J2["Manually downloading images"]
 I3 --> J3["Manually review and categorize\important dataset contents"]
 
-J1 --> K((Scope and\nRequirements Logic))
+J1 --> K((Google spreadsheets & Figma))
 J2 --> K
 J3 --> K
 
@@ -71,23 +71,23 @@ J3 --> K
 
 K --> L["Data Framing"]
 
-L --> M1["Merge"]
-L --> M2["Attribute Enrichment"]
-L --> M3["Validate"]
+L --> M1["Images"]
+L --> M2["Amount & types of Amino acids"]
+L --> M3["Asteroids"]
 
-M1 --> N((Identify gaps,\nconcerns,\nand targets))
+M1 --> N((Google spreadsheets, Figma, Python & Adobe PremierePro))
 M2 --> N
 M3 --> N
 
-N --> O1["Improve metadata standards"]
-N --> O2["Service-level categorization"]
-N --> O3["Theme-level dataset comparisons"]
+N --> O1["Selecting images of collection"]
+N --> O2["Amino acids categorization"]
+N --> O3["Collect information about historical & scientific impact of asteroids"]
 
 %% ============================
 %% DATA VISUALIZATION
 %% ============================
 
-O1 --> P((Figure))
+O1 --> P((Figma))
 O2 --> P
 O3 --> P
 
